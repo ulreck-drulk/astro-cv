@@ -1,46 +1,70 @@
 // Personal Information --> #hero section
-export const name = "Peter Griffin"
-export const designation = "Safety Inspector"
-export const location = "Quahog, Rhode Island"
+export const name = "Roger Chamorro"
+export const designation = "Data Analyst"
+export const location = "Managua, Nicaragua"
 export const pronouns = "he/him"
-export const website = "https://petergriffin.com"
+export const website = "https://roger-place.pages.dev/"
 
 // About
-export const about = "An adventurous man working as a safety inspector with a quirky sense of humor. Husband to Louis Griffin. Father of Chris, Brian, and Stewie."
+export const about = "Hi, I'm Roger Chamorro, a Business Administrator with 6+ years experience in databases and ERPs. I transform data into narratives, aim for automation and enjoy decreasing processing times. My unique blend of business acumen and analytical skills delivers insightful solutions."
 
 // Work Experience --> #work section
 export const work = [
 	{
-		from: "2001",
+		from: "2021",
 		to: "Present",
-		role: "Safety Inspector",
-		org: "Quahog Safety Department",
-		org_url: "https://quahog.gov/safety",
-		location: "Quahog, Rhode Island",
-		skills: "Safety Inspection, Risk Assessment, Emergency Response"
+		role: "HRIS Administrator",
+		org: "Foundever Nicaragua",
+		org_url: "https://jobs.foundever.com",
+		location: "Managua, Nicaragua",
+		skills: "System Administration, User Support, Data Management, Collaboration, Process Improvement, Cross-functional Collaboration"
+	},
+	{
+		from: "2016",
+		to: "2020",
+		role: "CSR - HRIS Administrator",
+		org: "Foundever Nicaragua",
+		org_url: "https://jobs.foundever.com",
+		location: "Managua, Nicaragua",
+		skills: "Customer Service Excellence, Mentoring and Coaching, HRIS Administration, Analytical Proficiency, Adaptability"
+	},
+	{
+		from: "2015",
+		to: "2016",
+		role: "Administrative Manager",
+		org: "H&CO Latam",
+		org_url: "https://www.hco.com/es-ni/",
+		location: "Managua, Nicaragua",
+		skills: "Project Management, Administrative Leadership, Efficiency and Organization, Problem-Solving"
+	},
+	{
+		from: "2014",
+		to: "2015",
+		role: "Information Quality Control",
+		org: "UNIMARK, S.A.",
+		org_url: "https://unimarksa.com/es",
+		location: "Managua, Nicaragua",
+		skills: "Efficient Data Analysis, Innovative Reporting Solutions, Super User Responsibilities"
 	}
+
+
 ]
 
 // Projects --> #project section
 export const projects = [
 	{
-		title: "Project Griffin",
-		description: "A project to improve safety standards in Quahog by implementing innovative safety measures.",
-		url: "https://projectgriffin.com",
-		tech: "Safety Equipment, Training Programs, Community Outreach",
+		title: "Roger's Place",
+		description: "A Static Web Journal to share my tech Journey and play around with web development",
+		url: "https://roger-place.pages.dev/",
+		tech: "ASTRO, HTML, Tailwind, CSS, CMD, GIT, GITHUB",
 	},
 	{
-		title: "Family Safety Campaign",
-		description: "An initiative to promote safety awareness among families in Quahog.",
-		url: "https://safefamilyquahog.com",
-		tech: "Workshops, Educational Material, Public Events",
-	},
-	{
-		title: "Road Safety Initiative",
-		description: "A campaign to enhance road safety and reduce accidents in Quahog.",
-		url: "https://roadsafetyquahog.com",
-		tech: "Traffic Analysis, Signage Improvement, Public Awareness",
+		title: "Roger's CV",
+		description: "My digital Website and Professional Portfolio (This site!)",
+		url: "https://rchamorro.pages.dev/",
+		tech: "ASTRO, HTML, Tailwind, CSS, CMD, GIT, GITHUB",
 	}
+	
 ]
 
 // Education --> #education section
