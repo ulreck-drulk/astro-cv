@@ -53,42 +53,52 @@ export const work = [
 // Projects --> #project section
 export const projects = [
 	{
+		Elaborated:"January - 2024",
 		title: "Roger's Place",
-		description: "A Static Web Journal to share my tech Journey and play around with web development",
+		description: "My personal Web Journal, I share my tech Journey and play around with different technologies",
 		url: "https://roger-place.pages.dev/",
 		tech: "ASTRO, HTML, Tailwind, CSS, CMD, GIT, GITHUB",
 	},
 	{
+		Elaborated:"January - 2024",
 		title: "Roger's CV",
-		description: "My digital Website and Professional Portfolio (This site!)",
+		description: "My digital Curriculum and Professional Portfolio (This site!)",
 		url: "https://rchamorro.pages.dev/",
 		tech: "ASTRO, HTML, Tailwind, CSS, CMD, GIT, GITHUB",
+	},
+	{
+		Elaborated:"January - 2022",
+		title: "Power BI Sales Overview",
+		description: "My First try using Power BI, an interactive report using a test database",
+		url: "https://github.com/ulreck-drulk/Sales_overview",
+		tech: "PowerBI, Excel, SQL, CMD, GIT, GITHUB",
 	}
+	
 	
 ]
 
 // Education --> #education section
 export const education = [
 	{
-		from: "1995",
-		to: "1999",
-		institute: "Quahog High School",
-		course: "High School Diploma",
-		location: "Quahog, Rhode Island"
+		from: "2007",
+		to: "2011",
+		institute: "Universidad Politecnica de Nicaragua",
+		course: "BBA: Business Administration",
+		location: "Managua, Nicaragua"
 	},
 	{
-		from: "1999",
-		to: "2003",
-		institute: "Quahog Community College",
-		course: "Bachelor of Science in Safety Management",
-		location: "Quahog, Rhode Island"
+		from: "2019",
+		to: "2019",
+		institute: "Singho Solutions",
+		course: "Lean Six Sigma, Yellow Belt",
+		location: "Managua, Nicaragua"
 	},
 	{
-		from: "2003",
-		to: "2005",
-		institute: "Safety University",
-		course: "Master of Science in Safety Engineering",
-		location: "Boston, Massachusetts"
+		from: "2010",
+		to: "2010",
+		institute: "Universidad Nacional de Ingenieria",
+		course: "Technical Degree: Advance Computer Maintenance ",
+		location: "Managua, Nicaragua"
 	}
 ]
 
@@ -96,15 +106,15 @@ export const education = [
 export const contact = [
 	{
 		source_name: "Email",
-		source: "peter.griffin@example.com",
+		source: "1i9mcgdzn@mozmail.com",
 	},
-	{
-		source_name: "Twitter",
-		source: "https://twitter.com/PeterGriffin",
-	},
+	// {
+	// 	source_name: "Twitter",
+	// 	source: "https://twitter.com/PeterGriffin",
+	// },
 	{
 		source_name: "LinkedIn",
-		source: "https://www.linkedin.com/in/peter-griffin",
+		source: "https://www.linkedin.com/in/rogerchamorro/",
 	},
 ]
 
@@ -112,66 +122,66 @@ export const contact = [
 
 export const certificates = [
 	{
-		issued: "2005",
-		title: "Certified Safety Inspector",
-		org: "National Safety Association",
-		url: "https://certi.com/url",
-		description: "Certification in safety inspection and risk assessment.",
+		issued: "2024",
+		title: "Administracion de Actividades con Trello",
+		org: "PLATZI",
+		url: "https://platzi.com/p/RCmedina/curso/1400-trello/diploma/detalle/",
+		description: "Training to use Trello for project management",
 	},
 	{
-		issued: "2006",
-		title: "Emergency Response Training",
-		org: "Quahog Safety Department",
-		url: "https://certi.com/url",
-		description: "Training in handling emergency situations and crisis management.",
+		issued: "2022",
+		title: "Curso profesional de Git y Github",
+		org: "PLATZI",
+		url: "https://platzi.com/p/RCmedina/curso/1557-git-github/diploma/detalle/",
+		description: "Training in how to work cooperatively using Git and github.",
 	},
 	{
-		issued: "2007",
-		title: "Safety Leadership Workshop",
-		org: "Safety Leaders International",
-		url: "https://certi.com/url",
-		description: "Leadership training in safety management and communication.",
+		issued: "2022",
+		title: "Diploma del Curso de Ética y Manejo de Datos para Data Science e Inteligencia Artificial",
+		org: "PLATZI",
+		url: "https://platzi.com/p/RCmedina/curso/3156-etica-ia/diploma/detalle/",
+		description: "How to ethically handle data for Data Analysis and Machine Learning.",
 	}
 ]
 
 // Blogs --> #blogs section
 export const blogs = [
 	{
-		date: "12-July, 2023",
+		date: "12-Dec, 2023",
 		url: "https://medium.com/",
-		title: "Adventures in Safety Inspection",
-		description: "Join me in my humorous escapades as a safety inspector in Quahog.",
-		publisher: "Quahog Times",
+		title: "Lorem Ipsum Dolorem",
+		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		publisher: "Roger Chamorro",
 	},
 	{
-		date: "25-June, 2023",
+		date: "12-Dec, 2023",
 		url: "https://medium.com/",
-		title: "Top 10 Safety Tips for Families",
-		description: "Learn the best safety practices for families to ensure a secure environment.",
-		publisher: "Safety Monthly",
+		title: "Lorem Ipsum Dolorem",
+		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		publisher: "Roger Chamorro",
 	}
 ]
 
 // Achievements --> #achievement section
 export const achievements = [
 	{
-		title: "Safety Hero Award",
-		year: "2020",
-		decription: "Recognized for outstanding contributions to improving safety standards in Quahog."
-	},
-	{
-		title: "Safety Innovation Prize",
-		year: "2018",
-		decription: "Awarded for implementing innovative safety measures that yielded significant improvements."
-	},
-	{
-		title: "Community Safety Ambassador",
-		year: "2015",
-		decription: "Honored for promoting safety awareness and education in the Quahog community."
-	},
-	{
-		title: "Safety Campaign Excellence",
-		year: "2013",
-		decription: "Acknowledged for leading a successful safety campaign that reached thousands of residents."
+		title: "Golden Buzzer Award",
+		year: "2023",
+		decription: "Recognized for outstanding contributions in our HRIS Department."
 	}
+	// {
+	// 	title: "Safety Innovation Prize",
+	// 	year: "2018",
+	// 	decription: "Awarded for implementing innovative safety measures that yielded significant improvements."
+	// },
+	// {
+	// 	title: "Community Safety Ambassador",
+	// 	year: "2015",
+	// 	decription: "Honored for promoting safety awareness and education in the Quahog community."
+	// },
+	// {
+	// 	title: "Safety Campaign Excellence",
+	// 	year: "2013",
+	// 	decription: "Acknowledged for leading a successful safety campaign that reached thousands of residents."
+	// }
 ]

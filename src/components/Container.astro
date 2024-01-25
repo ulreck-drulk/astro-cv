@@ -2,6 +2,7 @@
 import * as CONTENT from "../pages/content"
 import AccordionLayout from "../layouts/AccordionLayout.astro";
 import Card from "./Card.astro";
+import { AstroTimer } from "astro/dist/core/config/timer";
 ---
 
 <ul class="shadow-box">
@@ -31,7 +32,7 @@ import Card from "./Card.astro";
           return (
             <Card
               title={item.title}
-              timeframe="2022-2023"
+              timeframe={item.Elaborated}
               description={item.description}
               tags={item.tech}
               url={item.url}
